@@ -16,5 +16,4 @@ FOUNDATION_EXPORT const unsigned char BatchExtensionVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <BatchExtension/PublicHeader.h>
 
 #import <BatchExtension/BAENotificationServiceExtension.h>
-#import <BatchExtension/BAEDisplayReceiptHelper.h>
 #import <BatchExtension/BAERichNotificationHelper.h>
