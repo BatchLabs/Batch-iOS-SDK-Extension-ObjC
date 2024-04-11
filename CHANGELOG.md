@@ -2,6 +2,7 @@
 ----
 
 - Add PrivacyManifest
+- Minimum version is now iOS 12, as Xcode dropped support for older versions.
 
 2.0
 ----
