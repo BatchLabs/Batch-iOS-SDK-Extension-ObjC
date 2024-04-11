@@ -16,18 +16,6 @@
 		62D4AA7C23FE8D5A00A95D8A /* BAERichNotificationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D4AA7A23FE8D5A00A95D8A /* BAERichNotificationHelper.m */; };
 		62D4AA7D23FE8D5A00A95D8A /* BAERichNotificationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D4AA7B23FE8D5A00A95D8A /* BAERichNotificationHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62D4AA7F23FE8E8600A95D8A /* BatchExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D4AA7E23FE8E8600A95D8A /* BatchExtensionTests.m */; };
-		62D4AA8823FE9B4B00A95D8A /* BAEDisplayReceipt.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D4AA8223FE9B4B00A95D8A /* BAEDisplayReceipt.h */; };
-		62D4AA8923FE9B4B00A95D8A /* BAEDisplayReceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D4AA8323FE9B4B00A95D8A /* BAEDisplayReceipt.m */; };
-		62D4AA8A23FE9B4B00A95D8A /* BAEDisplayReceiptCacheHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D4AA8423FE9B4B00A95D8A /* BAEDisplayReceiptCacheHelper.m */; };
-		62D4AA8B23FE9B4B00A95D8A /* BAEDisplayReceiptCacheHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D4AA8523FE9B4B00A95D8A /* BAEDisplayReceiptCacheHelper.h */; };
-		62D4AA8C23FE9B4B00A95D8A /* BAEDisplayReceiptHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D4AA8623FE9B4B00A95D8A /* BAEDisplayReceiptHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62D4AA8D23FE9B4B00A95D8A /* BAEDisplayReceiptHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D4AA8723FE9B4B00A95D8A /* BAEDisplayReceiptHelper.m */; };
-		62D75543244DC8610018F01C /* BATMessagePackReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D7553D244DC8610018F01C /* BATMessagePackReader.h */; };
-		62D75544244DC8610018F01C /* BATMessagePackWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D7553E244DC8610018F01C /* BATMessagePackWriter.h */; };
-		62D75545244DC8610018F01C /* BATMessagePackWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D7553F244DC8610018F01C /* BATMessagePackWriter.m */; };
-		62D75546244DC8610018F01C /* msgpack-c.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D75540244DC8610018F01C /* msgpack-c.c */; };
-		62D75547244DC8610018F01C /* BATMessagePackReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D75541244DC8610018F01C /* BATMessagePackReader.m */; };
-		62D75548244DC8610018F01C /* msgpack-c.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D75542244DC8610018F01C /* msgpack-c.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,18 +41,6 @@
 		62D4AA7A23FE8D5A00A95D8A /* BAERichNotificationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAERichNotificationHelper.m; sourceTree = "<group>"; };
 		62D4AA7B23FE8D5A00A95D8A /* BAERichNotificationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAERichNotificationHelper.h; sourceTree = "<group>"; };
 		62D4AA7E23FE8E8600A95D8A /* BatchExtensionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BatchExtensionTests.m; sourceTree = "<group>"; };
-		62D4AA8223FE9B4B00A95D8A /* BAEDisplayReceipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAEDisplayReceipt.h; sourceTree = "<group>"; };
-		62D4AA8323FE9B4B00A95D8A /* BAEDisplayReceipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAEDisplayReceipt.m; sourceTree = "<group>"; };
-		62D4AA8423FE9B4B00A95D8A /* BAEDisplayReceiptCacheHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAEDisplayReceiptCacheHelper.m; sourceTree = "<group>"; };
-		62D4AA8523FE9B4B00A95D8A /* BAEDisplayReceiptCacheHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAEDisplayReceiptCacheHelper.h; sourceTree = "<group>"; };
-		62D4AA8623FE9B4B00A95D8A /* BAEDisplayReceiptHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAEDisplayReceiptHelper.h; sourceTree = "<group>"; };
-		62D4AA8723FE9B4B00A95D8A /* BAEDisplayReceiptHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAEDisplayReceiptHelper.m; sourceTree = "<group>"; };
-		62D7553D244DC8610018F01C /* BATMessagePackReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATMessagePackReader.h; sourceTree = "<group>"; };
-		62D7553E244DC8610018F01C /* BATMessagePackWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATMessagePackWriter.h; sourceTree = "<group>"; };
-		62D7553F244DC8610018F01C /* BATMessagePackWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATMessagePackWriter.m; sourceTree = "<group>"; };
-		62D75540244DC8610018F01C /* msgpack-c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "msgpack-c.c"; sourceTree = "<group>"; };
-		62D75541244DC8610018F01C /* BATMessagePackReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATMessagePackReader.m; sourceTree = "<group>"; };
-		62D75542244DC8610018F01C /* msgpack-c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "msgpack-c.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +65,6 @@
 		51C7DE8D252E0FF700154441 /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				62D4AA8623FE9B4B00A95D8A /* BAEDisplayReceiptHelper.h */,
-				62D4AA8723FE9B4B00A95D8A /* BAEDisplayReceiptHelper.m */,
 				62D4AA7B23FE8D5A00A95D8A /* BAERichNotificationHelper.h */,
 				62D4AA7A23FE8D5A00A95D8A /* BAERichNotificationHelper.m */,
 				62D4AA7723FE8B1E00A95D8A /* BAENotificationServiceExtension.h */,
@@ -103,16 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				62CA975F244F340B00975FD2 /* Consts.h */,
-				62D7553D244DC8610018F01C /* BATMessagePackReader.h */,
-				62D75541244DC8610018F01C /* BATMessagePackReader.m */,
-				62D7553E244DC8610018F01C /* BATMessagePackWriter.h */,
-				62D7553F244DC8610018F01C /* BATMessagePackWriter.m */,
-				62D75540244DC8610018F01C /* msgpack-c.c */,
-				62D75542244DC8610018F01C /* msgpack-c.h */,
-				62D4AA8223FE9B4B00A95D8A /* BAEDisplayReceipt.h */,
-				62D4AA8323FE9B4B00A95D8A /* BAEDisplayReceipt.m */,
-				62D4AA8523FE9B4B00A95D8A /* BAEDisplayReceiptCacheHelper.h */,
-				62D4AA8423FE9B4B00A95D8A /* BAEDisplayReceiptCacheHelper.m */,
 			);
 			path = Private;
 			sourceTree = "<group>";
@@ -166,13 +130,7 @@
 				62D4AA7923FE8B1E00A95D8A /* BAENotificationServiceExtension.h in Headers */,
 				62CA9760244F340B00975FD2 /* Consts.h in Headers */,
 				62D4AA7D23FE8D5A00A95D8A /* BAERichNotificationHelper.h in Headers */,
-				62D75543244DC8610018F01C /* BATMessagePackReader.h in Headers */,
-				62D75544244DC8610018F01C /* BATMessagePackWriter.h in Headers */,
-				62D4AA8823FE9B4B00A95D8A /* BAEDisplayReceipt.h in Headers */,
-				62D4AA8B23FE9B4B00A95D8A /* BAEDisplayReceiptCacheHelper.h in Headers */,
-				62D4AA8C23FE9B4B00A95D8A /* BAEDisplayReceiptHelper.h in Headers */,
 				51F7ED03236092FF00E01CD2 /* BatchExtension.h in Headers */,
-				62D75548244DC8610018F01C /* msgpack-c.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,14 +235,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62D4AA8923FE9B4B00A95D8A /* BAEDisplayReceipt.m in Sources */,
-				62D4AA8A23FE9B4B00A95D8A /* BAEDisplayReceiptCacheHelper.m in Sources */,
 				62D4AA7823FE8B1E00A95D8A /* BAENotificationServiceExtension.m in Sources */,
-				62D4AA8D23FE9B4B00A95D8A /* BAEDisplayReceiptHelper.m in Sources */,
 				62D4AA7C23FE8D5A00A95D8A /* BAERichNotificationHelper.m in Sources */,
-				62D75545244DC8610018F01C /* BATMessagePackWriter.m in Sources */,
-				62D75546244DC8610018F01C /* msgpack-c.c in Sources */,
-				62D75547244DC8610018F01C /* BATMessagePackReader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
