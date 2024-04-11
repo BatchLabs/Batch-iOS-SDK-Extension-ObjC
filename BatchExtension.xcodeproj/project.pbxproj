@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		515884392BC814B9005F77D7 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 515884382BC814B9005F77D7 /* PrivacyInfo.xcprivacy */; };
 		51F7ECFC236092FF00E01CD2 /* BatchExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F7ECF2236092FF00E01CD2 /* BatchExtension.framework */; };
 		51F7ED03236092FF00E01CD2 /* BatchExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F7ECF5236092FF00E01CD2 /* BatchExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62CA9760244F340B00975FD2 /* Consts.h in Headers */ = {isa = PBXBuildFile; fileRef = 62CA975F244F340B00975FD2 /* Consts.h */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		515884382BC814B9005F77D7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		51F7ECF2236092FF00E01CD2 /* BatchExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BatchExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F7ECF5236092FF00E01CD2 /* BatchExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BatchExtension.h; sourceTree = "<group>"; };
 		51F7ECF6236092FF00E01CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				51C7DE98252E123700154441 /* Private */,
 				51F7ECF5236092FF00E01CD2 /* BatchExtension.h */,
 				51F7ECF6236092FF00E01CD2 /* Info.plist */,
+				515884382BC814B9005F77D7 /* PrivacyInfo.xcprivacy */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				515884392BC814B9005F77D7 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
