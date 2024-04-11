@@ -1,3 +1,8 @@
+3.0.0
+----
+
+- Add PrivacyManifest
+
 2.0
 ----
 
